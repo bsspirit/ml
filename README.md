@@ -6,16 +6,17 @@ AI技术继续引领科技创新，R语言机器学习作为可落地的技术�
 
 会议分享：
 
-[2023-03-11]2023 微软技术直通车：用R语言一步一步学懂机器学习 <http://blog.fens.me/meeting-ms-direct-20230311>
-
-[2023-03-04]2023 微软Global AI bootcamp: R语言中的机器学习 <http://blog.fens.me/meeting-ms-global-ai-20230304/>
++ [20230311]微软技术直通车：用R语言一步一步学懂机器学习 <http://blog.fens.me/meeting-ms-direct-20230311>
++ [20230304]微软Global AI bootcamp: R语言中的机器学习 <http://blog.fens.me/meeting-ms-global-ai-20230304>
 
 
 
 本次分享重点在R语言的代码实现：
 
-+ 线性回归，三次样条回归
-+ 逻辑回归，决策树，朴素贝叶斯，xgboost，神经网络
++ 回归：线性回归，三次样条回归
++ 分类：逻辑回归，决策树，朴素贝叶斯，xgboost，神经网络
++ 聚类：kmeans, knn, dbscan
++ 降维：主成分析（svd,特征矩阵）
 + 混淆矩阵，查准，查全，AUC, ROC
 + 模型自动化，样本切分，5折交叉
 
