@@ -223,10 +223,9 @@ calculate_state_values <- function(transition_matrix, rewards, gamma = 0.9, epsi
 # 参数
 p
 rewards
+gamma<-0.5
 gamma
 
 # 计算状态价值
 state_values <- calculate_state_values(p, rewards, gamma)
-
-print("状态价值函数:")
-print(state_values)
+state_values
