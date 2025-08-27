@@ -14,7 +14,7 @@ p <- matrix(c(
   0.9,0.1,  0,  0,  0,  0,
   0.5,  0,0.5,  0,  0,  0,
     0,  0,  0,0.6,  0,0.4,
-    0,  0,  0,  0,0.3,0.4,
+    0,  0,  0,  0,0.3,0.7,
     0,0.2,0.3,0.5,  0,  0,
     0,  0,  0,  0,  0,  1
 ), nrow = 6, byrow = TRUE, dimnames = list(s, s))
@@ -161,7 +161,7 @@ simulate_markov_reward <- function(transition_matrix, rewards, initial_state, n_
 initial_state <- "s1"
 n_steps <- 100
 gamma <- 0.9  # 折扣因子
-rewards<-data.frame("s1"=-1,"s2"=-2,"s3"=-3,"s4"=10,"s5"=1,"s6"=0)
+rewards<-data.frame("s1"=-1,"s2"=-2,"s3"=-2,"s4"=10,"s5"=1,"s6"=0)
 
 # 运行模拟
 result <- simulate_markov_reward(p, rewards, initial_state, n_steps, gamma)
