@@ -1,5 +1,6 @@
 #####################
-# mavkov链
+# 用R语言手搓马尔可夫决策过程markov
+# http://blog.fens.me/r-markov/
 ######################
 
 setwd("C:/work/R/stat")
